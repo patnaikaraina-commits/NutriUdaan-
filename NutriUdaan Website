@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NutriUdaan | Coming Soon</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .gradient-bg {
+      background: linear-gradient(135deg, #0f766e, #14b8a6, #99f6e4);
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- HERO SECTION -->
+  <section class="gradient-bg min-h-screen flex items-center justify-center px-6 py-12">
+    <div class="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center">
+
+      <!-- LEFT CONTENT -->
+      <div class="text-white">
+        <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+          NutriUdaan
+        </h1>
+
+        <p class="text-xl md:text-2xl font-medium mb-4">
+          Personalized Nutrition. Smarter Health.
+        </p>
+
+        <p class="text-lg text-teal-50 leading-relaxed mb-8">
+          A modern nutrition and healthcare platform helping people identify
+          micronutrient deficiencies before they suffer from serious health issues.
+          Powered by AI-driven insights, nutrition tracking, and personalized
+          diet recommendations.
+        </p>
+
+        <!-- EMAIL FORM -->
+        <div class="bg-white p-4 rounded-2xl shadow-xl">
+          <h3 class="text-gray-800 text-lg font-semibold mb-3">
+            Join our early access list
+          </h3>
+
+          <form class="flex flex-col sm:flex-row gap-3">
+            <input
+              type="email"
+              placeholder=“patnaikaraina@gmail.com”
+              class="flex-1 px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-500"
+              required
+            />
+
+            <button
+              type="submit"
+              class="bg-teal-600 hover:bg-teal-700 transition text-white px-6 py-3 rounded-xl font-semibold"
+            >
+              Notify Me
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- RIGHT CARD -->
+      <div class="bg-white rounded-3xl shadow-2xl p-8 md:p-10">
+        <div class="mb-6">
+          <span class="bg-teal-100 text-teal-700 px-4 py-2 rounded-full text-sm font-semibold">
+            Coming Soon
+          </span>
+        </div>
+
+        <h2 class="text-3xl font-bold mb-4">
+          Building a healthier future through nutrition intelligence
+        </h2>
+
+        <p class="text-gray-600 leading-relaxed mb-8">
+          NutriUdaan combines technology, nutrition science, and AI to help
+          children and adults understand what nutrients their body truly needs.
+        </p>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-teal-50 p-5 rounded-2xl">
+            <h3 class="font-semibold text-lg mb-2">AI Insights</h3>
+            <p class="text-sm text-gray-600">
+              Smart recommendations based on nutrition patterns.
+            </p>
+          </div>
+
+          <div class="bg-teal-50 p-5 rounded-2xl">
+            <h3 class="font-semibold text-lg mb-2">Tracking</h3>
+            <p class="text-sm text-gray-600">
+              Monitor vitamins, minerals, and protein intake.
+            </p>
+          </div>
+
+          <div class="bg-teal-50 p-5 rounded-2xl">
+            <h3 class="font-semibold text-lg mb-2">Diet Plans</h3>
+            <p class="text-sm text-gray-600">
+              Personalized meal guidance for better health.
+            </p>
+          </div>
+
+          <div class="bg-teal-50 p-5 rounded-2xl">
+            <h3 class="font-semibold text-lg mb-2">Prevention</h3>
+            <p class="text-sm text-gray-600">
+              Detect deficiencies before they become serious.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- OUR STORY -->
+  <section class="py-20 px-6 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+
+      <h2 class="text-4xl font-bold mb-6 text-gray-800">
+        Our Story
+      </h2>
+
+      <p class="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
+        Hi, I am <span class="font-semibold text-teal-600">Araina Patnaik</span>,
+        Class 7 student from Greenwood High International School, Bengaluru.
+        NutriUdaan was created with a vision to help people identify and
+        overcome micronutrient deficiencies early through technology,
+        awareness, and accessible nutrition guidance.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="py-20 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+
+      <div class="text-center mb-14">
+        <h2 class="text-4xl font-bold mb-4">
+          How It Works
+        </h2>
+
+        <p class="text-gray-600 text-lg">
+          Simple steps toward smarter nutrition and preventive healthcare.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- STEP 1 -->
+        <div class="bg-white p-8 rounded-3xl shadow-md hover:shadow-xl transition">
+          <div class="w-14 h-14 bg-teal-100 text-teal-700 rounded-full flex items-center justify-center text-2xl font-bold mb-6">
+            1
+          </div>
+
+          <h3 class="text-2xl font-semibold mb-4">
+            Track Nutrition
+          </h3>
+
+          <p class="text-gray-600 leading-relaxed">
+            Log your meals and nutrition habits to understand your daily intake.
+          </p>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="bg-white p-8 rounded-3xl shadow-md hover:shadow-xl transition">
+          <div class="w-14 h-14 bg-teal-100 text-teal-700 rounded-full flex items-center justify-center text-2xl font-bold mb-6">
+            2
+          </div>
+
+          <h3 class="text-2xl font-semibold mb-4">
+            AI Analysis
+          </h3>
+
+          <p class="text-gray-600 leading-relaxed">
+            Our AI identifies possible micronutrient gaps and health risks.
+          </p>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="bg-white p-8 rounded-3xl shadow-md hover:shadow-xl transition">
+          <div class="w-14 h-14 bg-teal-100 text-teal-700 rounded-full flex items-center justify-center text-2xl font-bold mb-6">
+            3
+          </div>
+
+          <h3 class="text-2xl font-semibold mb-4">
+            Personalized Guidance
+          </h3>
+
+          <p class="text-gray-600 leading-relaxed">
+            Receive personalized diet plans and nutrition recommendations.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="py-20 px-6 bg-teal-700 text-white">
+    <div class="max-w-4xl mx-auto text-center">
+
+      <h2 class="text-4xl font-bold mb-6">
+        Contact Us
+      </h2>
+
+      <p class="text-lg text-teal-100 mb-8">
+        Interested in NutriUdaan? Reach out and stay connected before launch.
+      </p>
+
+      <a
+        href="mailto:support@nutriudaan.com"
+        class="inline-block bg-white text-teal-700 font-semibold px-8 py-4 rounded-2xl hover:bg-gray-100 transition"
+      >
+        Contact Us
+      </a>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 text-center py-6 text-sm">
+    © 2026 NutriUdaan. All rights reserved.
+  </footer>
+
+</body>
+</html>
